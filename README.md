@@ -1,4 +1,4 @@
-![](fig/worlflow.png)
+![](fig/workflow.png)
 ---
 # SRH image classification using ensemble of CLIP, EfficientNet and CatBoost models
 
