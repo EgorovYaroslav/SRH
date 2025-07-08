@@ -70,7 +70,29 @@ It includes:
 - Model evaluation
 - Confusion matrix and metrics
 
+## Paper
 
+<!-- Journal Version (Acta Astronautica): https://doi.org/10.1016/j.actaastro.2025.04.027 -->
+
+Open access (arXiv): https://arxiv.org/abs/2507.04211
+
+
+## Citation
+
+To cite this project, including the scientific basis, models and prepared dataset, please use:
+
+```
+@misc{egorov2025srh,
+      title={Siberian radioheliograph image classification using ensemble of CLIP, EfficientNet and CatBoost models}, 
+      author={Yaroslav Egorov},
+      year={2025},
+      eprint={2507.04211},
+      archivePrefix={arXiv},
+      primaryClass={astro-ph.SR},
+      url={https://arxiv.org/abs/2507.04211}, 
+}
+
+```
 
 ## 🤝 Contact
 
