@@ -15,9 +15,6 @@ The main components are:
 - **`CatBoostTuner`**: Trains a gradient boosting model on extracted embeddings.
 - **`EnsembleClassifier`**: Combines predictions from all three models into one final prediction.
 
-
-Sure! Here's an updated version of your **README** section that includes using a **virtual environment (`venv`)** for better practice and isolation:
-
 ---
 
 ## 🔧 Installation
