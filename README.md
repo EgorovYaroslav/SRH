@@ -6,7 +6,7 @@ This repository contains a ensemble classification of Siberian radioheliograph i
 
 ## [Installation](#-installation) — [Dataset](#-dataset) — [Usage](#-usage) — [Paper](#paper) — [Citation](#citation) — [Contact](#-contact)
 
-## 🧠 Overview
+## Overview
 
 The main components are:
 
@@ -17,7 +17,7 @@ The main components are:
 
 ---
 
-## 🔧 Installation
+## Installation
 
 ```bash
 # Clone the repository
@@ -33,7 +33,7 @@ pip install -r requirements.txt
 ```
 
 
-## 📥 Dataset
+## Dataset
 
 # Create directories
 ```bash
@@ -55,7 +55,7 @@ unzip data/3000.zip -d data/3Ghz
 rm data/3000.zip
 ```
 
-## 📄 Usage
+## Usage
 
 You can find usage examples in:
 
@@ -91,6 +91,6 @@ To cite this project, including the scientific basis, models and prepared datase
 
 ```
 
-## 🤝 Contact
+## Contact
 
 Yaroslav Egorov (egorov@iszf.irk.ru)
