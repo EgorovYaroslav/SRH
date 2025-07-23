@@ -4,7 +4,19 @@
 
 This repository contains a ensemble classification of Siberian radioheliograph images that combines EfficientNet (CNN), CLIP (multimodal), and CatBoost (tabular) models.
 
-## [Installation](#-installation) — [Dataset](#-dataset) — [Usage](#-usage) — [Paper](#paper) — [Citation](#citation) — [Contact](#-contact)
+## [Installation](#installation) — [Dataset](#dataset) — [Usage](#usage) — [Paper](#paper) — [Citation](#citation) — [Contact](#contact)
+
+## Abstract
+
+The Siberian Radioheliograph (SRH) is a ground-based radio interferometer in Irkutsk, Russia, designed for high-resolution solar observations in the microwave range. It can observe dynamic solar events with spatial resolutions of 7-30 arcseconds and temporal resolution up to 0.1 seconds.
+
+Generating solar radio images from the Siberian Radioheliograph (SRH) is a multi-step calibration process that corrects instrumental and atmospheric distortions, using redundancy-based calibration with both adjacent and non-adjacent antenna pairs to address phase and amplitude errors in visibility data. The CLEAN algorithm is then applied to deconvolve the point spread function, reduce sidelobes, and enhance the visibility of solar features, resulting in higher quality and more reliable images.
+
+While the calibration process generally improves image quality, it can sometimes result in noisy or spatially shifted images that are not suitable for scientific use. We developed a deep learning approach for automatic image quality classification. The training dataset was prepared using a zero-shot CLIP model and further validated manually. We evaluated four different models: a fine-tuned EfficientNet, two CatBoost variants using embeddings from CLIP and EfficientNet, and an Ensemble model that combined predictions from all three individual models. The Ensemble model achieved the best performance.
+
+The SRH daily image classification service has been created and is available online at https://forecasting.iszf.irk.ru/srh along with an API offering IDL and Python examples. Integration of Ensemble model into SRH image generating and calibration workflow can improve image reliability and reduces low-quality entries in SRH data catalog, enhancing solar research outcomes.
+
+---
 
 ## Overview
 
