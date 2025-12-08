@@ -81,7 +81,7 @@ It includes:
 
 ## Paper
 
-<!-- Journal Version (Acta Astronautica): https://doi.org/10.1016/j.actaastro.2025.04.027 -->
+Journal Version (Advances in Space Research): https://doi.org/10.1016/j.actaastro.2025.04.027
 
 Open access (arXiv): https://arxiv.org/abs/2507.04211
 
@@ -91,14 +91,14 @@ Open access (arXiv): https://arxiv.org/abs/2507.04211
 To cite this project, including the scientific basis, models and prepared dataset, please use:
 
 ```
-@misc{egorov2025srh,
-      title={Siberian radioheliograph image classification using ensemble of CLIP, EfficientNet and CatBoost models}, 
-      author={Yaroslav Egorov},
-      year={2025},
-      eprint={2507.04211},
-      archivePrefix={arXiv},
-      primaryClass={astro-ph.SR},
-      url={https://arxiv.org/abs/2507.04211}, 
+@article{EGOROV2025,
+	title = {Siberian Radioheliograph image classification using ensemble of CLIP, EfficientNet and CatBoost models},
+	journal = {Advances in Space Research},
+	year = {2025},
+	issn = {0273-1177},
+	doi = {https://doi.org/10.1016/j.asr.2025.10.030},
+	url = {https://www.sciencedirect.com/science/article/pii/S0273117725011615},
+	author = {Yaroslav Egorov},	
 }
 
 ```
