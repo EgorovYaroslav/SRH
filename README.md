@@ -81,7 +81,7 @@ It includes:
 
 ## Paper
 
-Journal Version (Advances in Space Research): https://doi.org/10.1016/j.actaastro.2025.04.027
+Journal Version (Advances in Space Research): https://doi.org/10.1016/j.asr.2025.10.030
 
 Open access (arXiv): https://arxiv.org/abs/2507.04211
 
